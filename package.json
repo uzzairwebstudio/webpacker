@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server",
     "watch": "webpack --config webpack.config.js --watch"
   },
   "author": "UzzairBaharudin",
