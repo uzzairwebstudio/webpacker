@@ -1,13 +1,6 @@
 import './assets/styles/app.scss'
 
-let name = 'Uzzair';
 
-let options = {
-    name: 'Uzzair',
-    age: 29
-}
-
-options = {
-    ...options,
-    country: 'Malaysia'
+if (process.env.NODE_ENV == 'production') {
+    console.log('We are in production');
 }
