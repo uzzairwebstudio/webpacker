@@ -1,8 +1,8 @@
-process.env.NODE_ENV = 'production';
+process.env.NODE_ENV = 'development';
 
 const webpack = require('webpack');
 
-const config = require('./webpack.prod');
+const config = require('./webpack.dev');
 
 const ora = require('ora');
 
